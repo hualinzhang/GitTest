@@ -1,0 +1,165 @@
+[
+  {
+    "id": "g-card-1600162755930",
+    "key": "g-card",
+    "tag": "el-card",
+    "type": "components",
+    "title": "卡片",
+    "props": {
+      "shadow": "always"
+    },
+    "solt": [
+      {
+        "name": "header",
+        "children": [
+          {
+            "id": "g-input-1600162756980",
+            "key": "g-input",
+            "type": "text",
+            "tag": "el-input",
+            "title": "文本输入框",
+            "props": {
+              "model": "",
+              "name": "",
+              "placeholder": "请输入",
+              "clearable": false,
+              "readonly": false,
+              "disabled": false,
+              "prefix": "",
+              "suffix": "",
+              "prepend": "",
+              "append": "",
+              "minlength": 1,
+              "maxlength": 300
+            }
+          }
+        ]
+      },
+      {
+        "name": "default",
+        "children": [
+          {
+            "id": "g-input-1600163195689",
+            "key": "g-input",
+            "type": "text",
+            "tag": "el-input",
+            "title": "文本输入框",
+            "props": {
+              "model": "",
+              "name": "",
+              "placeholder": "请输入",
+              "clearable": false,
+              "readonly": false,
+              "disabled": true,
+              "prefix": "el-icon-picture",
+              "suffix": "",
+              "prepend": "",
+              "append": "",
+              "minlength": 1,
+              "maxlength": 300
+            }
+          }
+        ]
+      },
+      {
+        "name": "footer",
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "g-row-1600162924079",
+    "key": "g-row",
+    "tag": "el-row",
+    "type": "components",
+    "title": "栅格布局",
+    "props": {
+      "type": "",
+      "justify": "start",
+      "align": "top",
+      "gutter": 10
+    },
+    "children": [
+      {
+        "tag": "el-col",
+        "type": "components",
+        "title": "列布局",
+        "props": {
+          "span": 12,
+          "offset": 0,
+          "push": 0
+        },
+        "children": [
+          {
+            "id": "g-card-1600162928695",
+            "key": "g-card",
+            "tag": "el-card",
+            "type": "components",
+            "title": "卡片",
+            "props": {
+              "shadow": "always"
+            },
+            "solt": [
+              {
+                "name": "header",
+                "children": [
+                  {
+                    "id": "g-button-1600162931446",
+                    "key": "g-button",
+                    "type": "layout",
+                    "tag": "el-button",
+                    "title": "按钮",
+                    "props": {
+                      "text": "默认按钮",
+                      "type": "",
+                      "plain": false,
+                      "round": false,
+                      "circle": false,
+                      "disabled": false,
+                      "icon": "",
+                      "iconRight": "",
+                      "nativeType": "button"
+                    }
+                  }
+                ]
+              },
+              {
+                "name": "default",
+                "children": [
+                  {
+                    "id": "g-card-1600163012112",
+                    "key": "g-card",
+                    "tag": "el-card",
+                    "type": "components",
+                    "title": "卡片",
+                    "props": {
+                      "shadow": "never"
+                    },
+                    "solt": [
+                      {
+                        "name": "header",
+                        "children": []
+                      },
+                      {
+                        "name": "default",
+                        "children": []
+                      },
+                      {
+                        "name": "footer",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "footer",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
